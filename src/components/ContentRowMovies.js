@@ -30,7 +30,7 @@ let actorsQuantity = {
     icon:'fa-user-check'
 }
 
-let cartProps = [moviesInDB, totalAwards, actorsQuantity];
+let cartProps = [moviesInDB, totalAwards, actorsQuantity]; /* cambiar por usuarios */
 
 function ContentRowMovies(){
     return (

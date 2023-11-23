@@ -26,7 +26,6 @@ function SideBar(){
                 {/*<!-- Nav Item - Dashboard -->*/}
                 <li className="nav-item active">
                     <Link className="nav-link" to="/">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
                         <span>Dashboard - TechBox </span></Link>
                 </li>
 
@@ -36,40 +35,25 @@ function SideBar(){
                 {/*<!-- Heading -->*/}
                 <div className="sidebar-heading">Actions</div>
 
-                {/*<!-- Nav Item - Pages -->*/}
-                <li className="nav-item">
-                <Link className="nav-link" to="/GenresInDb">
-                        <i className="fas fa-fw fa-folder"></i>
-                        <span>Category</span>
-                    </Link>
+                {/*<!-- Nav Item - Tables -->*/}
+                <li className="nav-item nav-link">
+                <Link className="nav-link" to="/LastMovieInDb">
+                        <i className="fas fa-fw fa-table"></i>
+                        <span>My account</span></Link>
                 </li>
 
                 {/*<!-- Nav Item - Charts -->*/}
                 <li className="nav-item">
-                    <Link className="nav-link" to="/LastMovieInDb">
+                    <Link className="nav-link" to="/ContentRowMovies">
+                        <i className="fas fa-fw fa-chart-area"></i>
+                        <span>Users</span></Link>
+                </li>
+
+                {/*<!-- Nav Item - Charts -->*/}
+                <li className="nav-item">
+                    <Link className="nav-link" to="/ContentRowMovies">
                         <i className="fas fa-fw fa-chart-area"></i>
                         <span>Products</span></Link>
-                </li>
-
-                {/*<!-- Nav Item - Tables -->*/}
-                <li className="nav-item nav-link">
-                <Link className="nav-link" to="/ContentRowMovies">
-                        <i className="fas fa-fw fa-table"></i>
-                        <span>Tables</span></Link>
-                </li>
-
-                {/*<!-- Nav Item - Tables -->*/}
-                <li className="nav-item nav-link">
-                <Link className="nav-link" to="/ContentRowMovies">
-                        <i className="fas fa-fw fa-table"></i>
-                        <span>Tables</span></Link>
-                </li>
-
-                {/*<!-- Nav Item - Tables -->*/}
-                <li className="nav-item nav-link">
-                <Link className="nav-link" to="/ContentRowMovies">
-                        <i className="fas fa-fw fa-table"></i>
-                        <span>Tables</span></Link>
                 </li>
 
                 {/*<!-- Divider -->*/}
